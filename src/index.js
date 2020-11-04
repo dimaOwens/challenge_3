@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from '../client/App';
 import reportWebVitals from './reportWebVitals';
 
+
+document.getElementById("myForm").submit();
 ReactDOM.render(
   <React.StrictMode>
     <App />

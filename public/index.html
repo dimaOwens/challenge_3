@@ -5,14 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multistep Checkout Experience</title>
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="node_modules/prop-types/prop-types.js"></script>
+    <script src="node_modules/lodash/lodash.js"></script>
 </head>
 
 <body>
     <div id="cont">
-        <button id="cob" onclick="">Checkout</button>
+        <button id="cob" onclick="moveToForm()">Checkout</button>
     </div>
 
-    <script src="server.js"></script>
+    <script src="../server.js"></script>
+    <script type="module" src="../compiled/client/app.js"></script>
+    <script type="module" src="../compiled/client/form1.js"></script>
+    <script type="module" src="../compiled/client/form2.js"></script>
+    <script type="module" src="../compiled/client/form3.js"></script>
 </body>
 
 </html>
